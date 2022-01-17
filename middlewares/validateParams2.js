@@ -34,4 +34,3 @@ const validateTalk = (req, res, next) => {
     validateTalk,
     validateSubTalk,
   };
-  
