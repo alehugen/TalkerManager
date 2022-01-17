@@ -7,9 +7,9 @@ const fs = require('fs').promises;
 const { readFileContent } = require('../helper/fs');
 
 // Importa as middlewares de validação para as rotas
-const { validateToken } = require('../middleware/authorization');
-const { validateName, validateAge } = require('../middleware/validateParams');
-const { validateTalk, validateSubTalk } = require('../middleware/validateParams2');
+const { validateToken } = require('../middlewares/authorization');
+const { validateName, validateAge } = require('../middlewares/validateParams');
+const { validateTalk, validateSubTalk } = require('../middlewares/validateParams2');
 
 router.get( // Rota de busca
   '/search',

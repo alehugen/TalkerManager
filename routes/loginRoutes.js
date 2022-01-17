@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const token = require('../middleware/token');
-const { validatePassword, validateEmail } = require('../middleware/validateParams');
+const token = require('../middlewares/token');
+const { validatePassword, validateEmail } = require('../middlewares/validateParams');
 
 router.post(
   '/', // Rota raíz

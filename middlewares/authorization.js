@@ -1,4 +1,3 @@
-
 const token = require('./token');
 
 const validateToken = (req, res, next) => {
